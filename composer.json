@@ -1,0 +1,38 @@
+{
+	"name": "proginow/cookie",
+	"description": "Proginow Framework Cookie Library,Modern cookie management.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "cookie", "cookies", "http", "csrf", "xss", "samesite", "same-site" ],
+	"require": {
+	  "php": ">=8.2.0",
+	  "proginow/http": "*"
+	},
+	"authors": [
+	  {
+		"name": "Proginow",
+		"email": "info@proginow.com",
+		"homepage": "https://proginow.com",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/proginow/cookie"
+	  }
+	],
+	"support": {
+		  "email": "info@proginow.com"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Proginow\\Cookie\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
